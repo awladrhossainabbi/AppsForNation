@@ -639,3 +639,73 @@ ul.F-LIst li a {
 ul.F-LIst li a:hover {
     color: red;
 }
+
+
+
+
+
+
+
+.BookWrapper {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.BookWrapper h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.BookBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.B-Card {
+    width: 46%;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.B-Card h3 {
+    padding: 10px;
+    background: burlywood;
+    color: white;
+}
+
+.B-Card p {
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.B-Card a {
+    width: 100px;
+    display: block;
+    margin: auto;
+    background: #ffbc00;
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.B-Card a:hover {
+    background: #777;
+    border: 2px solid red;
+    color: darkturquoise;
+}
+
+.B-Card img {
+    width: 100%;
+    border-bottom: 1px solid #999;
+    height: 200px;
+}
